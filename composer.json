@@ -1,0 +1,16 @@
+{
+  "name": "vikonapi",
+  "version": "1.0.0",
+  "description": "Библиотека на PHP для работы с Vikon Api",
+  "homepage": "https://db-nica.ru",
+  "authors": [
+    {
+      "name": "NFPI",
+      "email": "info@db-nica.ru"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "php-curl-class/php-curl-class": "^8.5"
+  }
+}
