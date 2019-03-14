@@ -15,6 +15,10 @@ class Request
 {
     public function __construct()
     {
+    }
+
+    public function get()
+    {
         $curl = new Curl;
         $curl->get('https://db-nica.ru/');
         if ($curl->error) {
