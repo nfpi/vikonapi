@@ -11,7 +11,7 @@ namespace Nfpi\Vikonapi;
 
 use Curl\Curl;
 
-class Vikonapi
+class Request
 {
     public function __construct()
     {
